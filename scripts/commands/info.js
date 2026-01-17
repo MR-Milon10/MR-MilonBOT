@@ -35,20 +35,20 @@ module.exports.run = async ({ api, event, args }) => {
   const info = `
 ✦ 𝗬𝗨𝗠𝗜𝗞𝗔 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 ✦
 
-❖ 𝗡𝗮𝗺𝗲: 『 ${adminInfo.name} 』
-❖ 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: 『 ${adminInfo.city} 』
-❖ 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻: 『 ${adminInfo.work} 』
-❖ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 『 ${adminInfo.whatsapp} 』
-❖ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 『 ${adminInfo.facebook} 』
+❖ 𝗡𝗮𝗺𝗲: 『 MILON HASAN 』
+❖ 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: 『 DHAKA 』
+❖ 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻: 『 VONDAMI ULTRA PRO 』
+❖ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 『 8801912603270 』
+❖ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 『 https://www.facebook.com/share/17uGq8qVZ9/ 』
 
 ╔════════ • ✤ • ════════╗
 ✦ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 ✦
 ╚════════ • ✤ • ════════╝
 
-❖ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 『 ${botVersion} 』
+❖ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 『 MILON AHMED 』
 ❖ 𝗨𝗽𝘁𝗶𝗺𝗲: 『 ${uptime} 』
 ❖ 𝗖𝗼𝗱𝗲𝗿: 『 ${adminInfo.name} 』
-❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 IMRAN-API 』
+❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 MILON-API 』
 `.trim();
 
   const imagePath = __dirname + "/cache/admin.png";
