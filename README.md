@@ -1,15 +1,25 @@
-# 🤖 MILON BOT V4
+ # 🤖 MR-MILON BOT
 
-![IMRAN BOT Logo](https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imranbotlogo.png)
+![MR-MILON BOT Logo](https://raw.githubusercontent.com/MR-Milon10/MR-MilonBOT/main/assets/logo.png)
 
 **🌟 Fully Customizable Facebook Messenger Bot**  
-**Premium Features • Easy to Use • Built with ❤️ by Imran Ahmed**
+**Premium Features • Easy to Use • Built with ❤️ by MR-MILON**
+
+---
 
 ## 👤 ABOUT ME
 
-- Name: ```IMRAN AHMED```</br> 
-- Age: ```20```</br>  
-- Facebook: [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099).</br>
+- **Name:** `MD MILON (MR-Milon10)`
+- **Facebook:** https://www.facebook.com/share/17uGq8qVZ9/
+- **GitHub:** https://github.com/MR-Milon10
+
+---
+
+## 🚀 GET STARTED
+
+### 📦 Install Dependencies
+```bash
+npm install
 
 ## 🚀 STARTUP
 
@@ -17,14 +27,12 @@
 npm install
 ```
 ```txt
-node main/catalogs/IMRANA.js
+node main/catalogs/MILON.js
 ```
 ## 🛠️ CREDITS
 
 Original Base: BotPack by YanMaglinte
-
-Modified By: ```Imran & Ryuko```</br>
-
+Modified, Customized & Maintained By: MR-MILON
 Facebook Client: fca-ws3 by Kenneth Aceberos
 
 ## ✨ FEATURES
@@ -40,11 +48,14 @@ Facebook Client: fca-ws3 by Kenneth Aceberos
 
 ## ⚙️ CONFIGURATION
 
-File	Description
-
-IMRAN.js	```Auto restart and pending message handler```</br>
-Config.json	```Bot name, prefix, admins, operators, etc.```</br>
-appstate.json ```Facebook login/session state```</br>
+File
+Description
+MILON.js
+Auto restart & pending handler
+Config.json
+Bot name, prefix, admins
+appstate.json
+Facebook session login
 
 
 ## 🔐 BOX APPROVAL SYSTEM
@@ -98,18 +109,18 @@ module.exports.config = {
   name: "example",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
-  description: "An example command",
+  credits: "MR-MILON",
+  description: "Example command",
   prefix: true,
   category: "utility",
-  usages: "example [args]",
+  usages: "example",
   cooldowns: 5,
   premium: false,
   dependencies: {}
 };
 
-module.exports.run = async ({ api, event, args }) => {
-  api.sendMessage("Hello from example command!", event.threadID);
+module.exports.run = async ({ api, event }) => {
+  api.sendMessage("Hello from MR-MILON BOT!", event.threadID);
 };
 ```
 ## 🧩 UPCOMING FEATURES
@@ -123,11 +134,11 @@ module.exports.run = async ({ api, event, args }) => {
 
 📁 RESOURCES
 
-GitHub Repository: [IMRAN-BOTV4](https://github.com/MR-IMRAN-60/IMRAN-BOTV4)
+https://github.com/MR-Milon10/MR-MilonBOT
+Maintainer: MR-MILO
 
 
-> 💬 Developed with care by Imran Ahmed & Ryuko
-
+> 💬 Developed with care by milon AhmeGitHub Repo: NuBrowser
 
 
 Let me know if you want me to help with anything else!
